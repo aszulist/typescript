@@ -1,0 +1,66 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/adam/.nvm/v0.11.13/bin/node',
+1 verbose cli   '/home/adam/.nvm/v0.11.13/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'Knockoutjs' ]
+2 info using npm@1.4.9
+3 info using node@v0.11.13
+4 verbose cache add [ 'Knockoutjs', null ]
+5 verbose cache add name=undefined spec="Knockoutjs" args=["Knockoutjs",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'Knockoutjs',
+6 verbose parsed url   path: 'Knockoutjs',
+6 verbose parsed url   href: 'Knockoutjs' }
+7 silly lockFile 0f08b1bd-Knockoutjs Knockoutjs
+8 verbose lock Knockoutjs /home/adam/.npm/0f08b1bd-Knockoutjs.lock
+9 silly lockFile 0f08b1bd-Knockoutjs Knockoutjs
+10 silly lockFile 0f08b1bd-Knockoutjs Knockoutjs
+11 verbose addNamed [ 'Knockoutjs', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 40c1bfd8-Knockoutjs Knockoutjs@
+14 verbose lock Knockoutjs@ /home/adam/.npm/40c1bfd8-Knockoutjs.lock
+15 silly addNameRange { name: 'Knockoutjs', range: '*', hasData: false }
+16 verbose url raw Knockoutjs
+17 verbose url resolving [ 'https://registry.npmjs.org/', './Knockoutjs' ]
+18 verbose url resolved https://registry.npmjs.org/Knockoutjs
+19 info trying registry request attempt 1 at 08:15:45
+20 http GET https://registry.npmjs.org/Knockoutjs
+21 http 404 https://registry.npmjs.org/Knockoutjs
+22 silly registry.get cb [ 404,
+22 silly registry.get   { 'content-type': 'application/json',
+22 silly registry.get     'cache-control': 'max-age=0',
+22 silly registry.get     'content-length': '2',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     date: 'Tue, 17 May 2016 06:15:33 GMT',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '0',
+22 silly registry.get     connection: 'close',
+22 silly registry.get     'x-served-by': 'cache-fra1223-FRA',
+22 silly registry.get     'x-cache': 'MISS',
+22 silly registry.get     'x-cache-hits': '0',
+22 silly registry.get     'x-timer': 'S1463465733.480008,VS0,VE424',
+22 silly registry.get     vary: 'Accept-Encoding' } ]
+23 silly lockFile 40c1bfd8-Knockoutjs Knockoutjs@
+24 silly lockFile 40c1bfd8-Knockoutjs Knockoutjs@
+25 error 404 Not Found
+25 error 404
+25 error 404 'Knockoutjs' is not in the npm registry.
+25 error 404 You should bug the author to publish it
+25 error 404
+25 error 404 Note that you can also install from a
+25 error 404 tarball, folder, or http url, or git url.
+26 error System Linux 3.13.0-86-generic
+27 error command "/home/adam/.nvm/v0.11.13/bin/node" "/home/adam/.nvm/v0.11.13/bin/npm" "install" "Knockoutjs"
+28 error cwd /home/adam/Repo/TypeScriptTypes
+29 error node -v v0.11.13
+30 error npm -v 1.4.9
+31 error code E404
+32 verbose exit [ 1, true ]
